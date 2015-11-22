@@ -30,3 +30,9 @@ Note: I prefer to create images and containers as a regular user. You may choose
 
 The first part (building the image) will take some time to complete. Fast connection helps.
 
+## Re-using this image
+
+To extend this image, you can pull it from docker hub.
+
+    docker pull lysender/php
+
