@@ -25,8 +25,8 @@ Note: I prefer to create images and containers as a regular user. You may choose
     # Build image, you can use any tag name
     docker build --rm -t lysender/php .
     
-    # Create and run a container
-    docker run --name sample-php lysender/php
+    # Create and run a container, then delete it
+    docker run --rm lysender/php
 
 The first part (building the image) will take some time to complete. Fast connection helps.
 
